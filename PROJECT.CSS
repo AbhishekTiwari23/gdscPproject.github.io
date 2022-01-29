@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'sofia';
+    
+
+}
+
+#myhobby-text{
+    text-align: center;
+
+}
+.nav-bar{
+    background: black;
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 99;
+    color: aqua;
+    padding: 20px;
+    font-family: 'Times New Roman';
+}
+.nav-bar h1{
+    font-size: 40px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-bar img{
+    height: 45px;
+    float: left;
+    margin-right: 20px;
+
+}
+.nav-bar h1{
+    display: inline;
+
+}
+.menu-right{
+    text-align: right;
+}
+.nav-bar a{
+    display: inline-block;
+    color: chocolate;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+#navbar-right{
+    float: right;
+}
+.nav-bar a:hover{
+    background-color: azure;
+    color: black;
+} 
+.nav-bar a.active{
+    background-color: aqua;
+    color: chartreuse;
+}
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:400px){
+    span{
+        display: block;
+
+    }
+    ul li{
+        display: block
+    
+    }
+    ul{
+        display: none;
+    }
+}
+
+
+.skill-bar-container{
+    /* width: 100%; Full width */
+  background-color: #ddd; /* Grey background */
+  padding: 20px;
+}
+.skill-bar{
+    text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.html-skill {width: 90%; background-color: #2196F3;} /* Blue */
+.css-skill {width: 80%; background-color:aqua;} /* Blue */
+.bootstrap-skill {width: 60%; background-color:blueviolet;} /* Blue */
+.wix-skill {width: 91%; background-color:blue;} /* Blue */
+.js-skill {width: 40%; background-color:darkgoldenrod;} /* Blue */
+.android-skill {width: 70%; background-color:chartreuse;} /* Blue */
+.flutter-skill {width: 70%; background-color:#5383d3 ;} /* Blue */
+.python-skill {width: 86%; background-color:goldenrod;} /* Blue */
+.php-skill {width: 54%; background-color:#5383d3;} /* Blue */
+.c-skill {width: 70%; background-color:blue;} /* Blue */
+.cpp-skill {width: 40%; background-color:darkgoldenrod;} /* Blue */
+.content{
+    background-color: aquamarine;
+}
+.myhobbies{
+    background-color:burlywood;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+#myhobby-nav{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKPz6i4O9PIBJK4edR6l4rDQiZrJuIH-qgg&usqp=CAU);
+    padding: 20px;
+    /* margin-top: 120px; */
+    font-family: 'Gill Sans';
+    font-style: italic;
+    text-align: center;
+    height: 150px;
+    font-size: 60px;
+}
+#skills-nav{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKPz6i4O9PIBJK4edR6l4rDQiZrJuIH-qgg&usqp=CAU);
+    padding: 20px;
+    margin: 0;
+    font-family: 'Gill Sans';
+    font-style: italic;
+    text-align: center;
+    height: 150px;
+    font-size: 60px;
+    
+}
+.home-screen img{
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 50%;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.home-screen pre{
+    text-align: center;
+    font-size: 18px;
+
+}
+.home-screen{
+    margin-top: 210px;
+    background-color: burlywood;
+}
+
+.image-left{
+    float: left;
+    margin-right: 0px ;
+    margin-top:12px;
+    
+}
+.img-skill-background{
+    background-color: burlywood;
+    width: 100%;
+}
+.image-left img{
+    border-width: 15px;
+    border: tomato;
+    border-radius: 50%;
+
+}
+
+.section-container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:calc(var(--bs-gutter-y)* -1) ;
+    margin-left:calc(var(--bs-gutter-x)/ -2) ;
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+}
+.section-container.columns{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.section-container.columns.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section-container.columns.container{
+    padding: 40px 50px;
+}
+.section-container.columns.content h5{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+footer{
+
+    bottom: 0;
+   }
+   .footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    
+    padding: 55px 50px;
+    margin-top: 80px;
+   }
+    
+   .footer-distributed .footer-left,
+   .footer-distributed .footer-center,
+   .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+   }
+    
+   .footer-distributed .footer-left{
+    width: 40%;
+   }
+    
+   .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+   }
+    
+   .footer-distributed h3 span{
+    color:  #5383d3;
+   }
+    
+    
+   .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+   }
+    
+   .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+   }
+    
+   .footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+    
+   .footer-distributed .footer-center{
+    width: 35%;
+   }
+    
+   .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+   }
+    
+   .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+   }
+    
+   .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+   }
+    
+   .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+   }
+    
+   .footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+   }
+    
+   .footer-distributed .footer-right{
+    width: 20%;
+   }
+    
+   .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+   .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+    
+   .footer-distributed .footer-icons{
+    margin-top: 25px;
+   }
+    
+   .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+    
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    
+    margin-right: 3px;
+    margin-bottom: 5px;
+   }
+    
+    
+   @media (max-width: 880px) {
+    
+    .footer-distributed{
+    font: bold 14px sans-serif;
+    
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+    margin-left: 0;
+    }}
